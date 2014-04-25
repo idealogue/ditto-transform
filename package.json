@@ -1,0 +1,42 @@
+{
+  "name": "gitto",
+  "description": "The best cli project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/idealogue/gitto",
+  "author": {
+    "name": "David Hauser",
+    "email": "david@idealogue.io",
+    "url": "idealogue.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:idealogue/gitto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/idealogue/gitto/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/idealogue/gitto/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/gitto",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.4"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "gitto" : "lib/gitto.js"
+  }
+}
